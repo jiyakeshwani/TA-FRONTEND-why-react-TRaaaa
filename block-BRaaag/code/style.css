@@ -1,0 +1,42 @@
+.container{
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 7rem 0;
+    background-color: darksalmon;
+}
+
+.watch-list{
+    border: 2px solid white;
+    background-color: black;
+    padding: 1rem;
+    border-radius: 20px;
+    
+}
+
+h1{
+ color: white;
+ text-align: center;
+}
+
+.input{
+    display: block;
+    width: 99%;
+    padding: 0.5rem 0.1rem;
+    
+}
+.input::placeholder{
+    color: black;
+    font-size: 1rem;
+}
+
+li{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+h2{
+    margin-bottom: 3rem;
+}
